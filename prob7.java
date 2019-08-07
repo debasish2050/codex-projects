@@ -4,7 +4,7 @@ public class prob7 {
         public static boolean isprime(int a)
          {
           boolean status=true;
-           for(int i=3;i<=Math.sqrt(a);i+=2;
+           for(int i=3;i<=Math.sqrt(a);i+=2)
              {
                 if(a%i==0)
                  {
